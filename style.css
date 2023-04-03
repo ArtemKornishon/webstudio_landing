@@ -1,3 +1,78 @@
-.body {
-    
+@import url(./vendor/fonts/fonts.css);
+
+body {
+    background-color: #161617;
 }
+
+.header__navigation {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1274px;
+    margin: 0 auto;
+}
+
+.header__logo {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding-top: 50px;
+}
+
+.header__logo-link {
+    font-family: 'Ruberoid-Regular';
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 0.31em;
+}
+
+.header__logo-link_extra {
+    font-family: 'Ruberoid Extra';
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: -0.115em;
+}
+
+.header__nav {
+    max-width: 478px;
+}
+
+.header__nav-links {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 67px 0 0;
+}
+
+.header__nav-item {
+    list-style: none;
+    margin-right: 35px;
+}
+
+.header__nav-item:last-child {
+    margin-right: 0px;
+}
+
+.header__nav-link {
+    color: white;
+    text-decoration: none;
+    font-family: 'Ruberoid-Regular';
+    font-size: 20px;
+}
+
+.header__button {
+    padding:  15.5px 40px 16.5px 42px;
+    margin-top: 50px;
+    background-color: rgba(46,236,197,0.1);
+    color: white;
+    border: 1.5px solid #2EECC5;
+    border-radius: 49px;
+    height: 56px;
+    font-family: 'Ruberoid-Medium';
+    font-size: 20px;
+    transition-duration: 0.4s;
+}
+
+.header__button:hover {
+    box-shadow: 0px 0px 55px rgba(46,236,197,0.15);
+
+  }
